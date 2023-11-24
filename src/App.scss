@@ -27,7 +27,6 @@ button {
   font-size: 16px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 select {
   box-shadow: none;
 }
@@ -107,6 +106,9 @@ p {
 h2 {
   color: #333;
 }
+// h3 {
+//   transform: translateY(40px);
+// }
 
 img {
   max-width: 100%;
@@ -133,6 +135,8 @@ p {
   margin: 5px 0;
   margin-bottom: 15px;
   margin-top: 15px;
+  //   display: flex;
+  //   justify-content: center;
 }
 
 div {
@@ -161,7 +165,8 @@ select option:first-letter {
   font-family: "Caveat", cursive;
   font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
-} 
+} /*# sourceMappingURL=App.css.map */
+
 .pokemon-info-container {
   display: flex;
   justify-content: space-around;
@@ -173,7 +178,12 @@ select option:first-letter {
   flex-direction: column;
   align-items: center;
 }
-
 img {
   width: 150px;
-}/*# sourceMappingURL=App.css.map */
+}
+
+// .pokemon-info2 {
+//   grid-row-start: 3;
+//   grid-row-end: 4;
+//   margin-left: 20px;
+// }
